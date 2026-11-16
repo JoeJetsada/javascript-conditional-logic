@@ -1,5 +1,18 @@
 //Exercise 4
 // Switch Statement
 let lightBulbStatus = "On";
+// Start coding here.
+switch (lightBulbStatus){
+    case "On":
+       console.log("Light bulb is On.");
+       break;
 
-//Start coding here
+    case "Off":
+       console.log("Light bulb is Off.");
+       break;
+
+    case "broken":
+       console.log("Light bulb is Broken.");
+        break;
+}
+console.log(lightBulbStatus)
